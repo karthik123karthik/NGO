@@ -1,0 +1,59 @@
+
+body {
+	font-family: 'Balsamiq Sans', cursive;
+}
+#home {
+	
+	background-image: url("img/showcase.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat ;
+}
+@media(min-width: 768px){
+	.news-input{
+		width: 50%;
+	}
+}
+#projects {
+	background-color: rgba(63, 131, 191, 0.2);
+}
+#about {
+	background-color: rgba(187, 63, 191, 0.1);
+}
+#contact {
+	background-color: rgb(230, 255, 230);
+}
+.icon {
+	color: rgb(245, 170, 66) ;
+}
+.link {
+	text-decoration: none;
+}
+.mkfloat {
+	float: right;
+}
+
+@media only screen and (min-width: 769px) {
+	.cardproj {
+		width: 100%;
+		flex-direction: row;
+		}
+	.cardproj img {
+		width: 30%;
+		}
+}
+
+#btn-stt  {
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	border-radius: 50%;
+	border: none;
+	cursor: pointer;
+	z-index: 100;
+}
+
+.ic:hover {
+	color: #660033;
+
+}

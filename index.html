@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">  <!--font-->
+    <script src="https://kit.fontawesome.com/65cd049d9b.js" crossorigin="anonymous"></script>  <!--icon-->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="main.css" > <!--css-->
+    <title>NGO</title>
+  </head>
+
+
+  <body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+      <div class="container">
+        <a href="#" class="navbar-brand"><img class="rounded-circle" src="img/logo.png" width="50px" height="50px" >  Care For</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#blog" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="#team" class="nav-link">Team</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--end_of_navbar-->
+
+    <!--Showcase-->
+    <section class="bg-dark text-light p-5 text-center" id="home">
+      <div class="container">
+        <div>
+            <br><br>
+            <h1>Lead An <span class="text-warning">Inspirational Life</span></h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <br><br>
+            <button class="btn btn-warning btn-lg">Donate</button>
+        </div>
+      </div>
+    </section>
+    <!--endofShowcase-->
+
+    <!--scrolltoTop-->
+    <button id="btn-stt" onclick="rise()">
+      <i class="fas fa-hands-helping fa-3x ic"></i>
+    </button>
+    <!--endofscrolltoTop-->
+
+    <!--Newsletter-->
+    <section class="bg-primary text-light p-5" id="newsletter">
+      <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+          <h3 class="mb-3 mb-md-0">Sign Up For Our Newsletter</h3>
+
+          <div class="input-group news-input">
+            <input type="email" class="form-control" placeholder="Enter Email"/>
+            <button class="btn btn-dark btn-lg" type="button">
+              <i class="fa fa-paper-plane" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--endofNewsletter-->
+
+    <!--Projects-->
+    <section class="p-5" id="projects">
+      <h2 class="text-center pb-3">PROJECTS</h2>
+      <div class="continer">
+        <div class="row text-center">
+          <div class="col-sm mb-2">
+            <div class="card bg-dark text-light" style="width: 18rem;">
+              <img src="img/saveKids.jpg" class="card-img-top" alt="save a child's life">
+              <div class="card-body">
+                <h5 class="card-title">Save A <span class="text-warning">Child's Life</span></h5>
+                <p class="card-text text-left">Every day, approximately 15,000 children under five die. A staggering 80% of those...</p>
+                <a href="projects.html#save" class="btn btn-warning">read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm mb-2">
+            <div class="card bg-dark text-light" style="width: 18rem;">
+              <img src="img/vaccination.jpg" class="card-img-top" alt="vaccination">
+              <div class="card-body">
+                <h5 class="card-title"><span class="text-warning">Improve</span> Health & Fight <span class="text-warning">Infectious</span> Disease</span></h5>
+                <p class="card-text text-left">Billions of people worldwide are at risk of contracting a life...</p>
+                <a href="projects.html#infect" class="btn btn-warning">read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm mb-2">
+            <div class="card bg-dark text-light" style="width: 18rem;">
+              <img src="img/endHunger.jpg" class="card-img-top" alt="endHunger">
+              <div class="card-body">
+                <h5 class="card-title">End <span class="text-warning">Hunger</span> & <span class="text-warning">Malnutrition</span></h5>
+                <p class="card-text text-left">Chronic malnutrition threatens the health and development of a third of the world’s population...</p>
+                <a href="projects.html#hungry" class="btn btn-warning">read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm mb-2">
+            <div class="card bg-dark text-light" style="width: 18rem;">
+              <img src="img/economic.jpg" class="card-img-top" alt="ecconomic">
+              <div class="card-body">
+                <h5 class="card-title">Creat <span class="text-warning">Economic Opportunity</span></h5>
+                <p class="card-text text-left">Financial security, access to information, and job opportunities...</p>
+                <a href="projects.html#economy" class="btn btn-warning">read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--endofProjects-->
+
+    <!--about-->
+    <section class="p-5" id="about">
+      <h2 class="text-center">ABOUT</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-5">
+            <h4>Our <span class="text-success">Mission</span></h4>
+            <p>
+            We make “smart giving simple” by curating a group of nonprofits that save or improve the most lives per dollar. We aim to create a world where everyone has an opportunity to build a better life and where there’s no suffering or death due to extreme poverty.
+            </p>
+          </div>
+          <div class="col-sm-7">
+            <h4>Our <span class="text-success">History</span></h4>
+            <p>
+              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--endofabout-->
+    
+
+    <!--Contact&Map-->
+    <section class="p-5" id="contact">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md">
+            <h2 class="text-center mb-4">Contact Info</h2>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <a class="link" href="mailto:ashishjaguar47@gmail.com"><i class="fas fa-envelope icon" ></i> <span class="fw-bold text-warning">Mail Us:</span> <span class="text-info">ashishjaguar47@gmail.com</span></a>
+              </li>
+              <li class="list-group-item">
+                <a class="link" href="tel:1234567890"><i class="fas fa-phone icon" ></i> <span class="fw-bold text-warning">Call Us:</span> <span class="text-info">123 456 7890</span></a>
+              </li>
+              <li class="list-group-item">
+                <a class="link" href="https://WWW.linkedin.com/in/ashish-p-164b801b8"><i class="fab fa-linkedin-in icon" ></i> <span class="fw-bold text-warning">Watch Us:</span> <span class="text-info">linkedin</span></a>
+              </li>
+              <li class="list-group-item">
+                <a class="link" href="#twitter"><i class="fa fa-twitter icon" ></i> <span class="fw-bold text-warning">Tweet Us:</span> <span class="text-info">twitter</span></a>
+              </li>
+              <li class="list-group-item">
+                <a class="link" href="https://maps.app.goo.gl/C8DxgyptU82idJ4T6
+" target="blank"><i class="fa fa-map-marker icon" ></i> <span class="fw-bold text-warning">Meet Us:</span> <span class="text-info">Mysuru, Karnataka, India -570009</span></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md pt-md-5 ps-md-5">
+            <form action="">
+              <div class="mb-3">
+                <label class="form-lable" for="name">Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="name">
+              </div>
+              <div class="mb-3">
+                <label class="form-lable" for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+              </div>
+              <div class="mb-3 input-group">
+                <label class="form-lable" for="message"><span class="pe-2">Message:</span></label>
+                <textarea class="form-control" placeholder="message"></textarea>
+              </div>
+              <div class="mkfloat">
+              <button type="submit" class="btn btn-dark mb-3 float-right"><i class="fa fa-paper-plane" aria-hidden="true"></i><span class="text-warning"> Send</span></button>
+            </div>
+            </form>
+          </div>
+        </div>
+      </div>
+     </section>
+     <!--endofContact&Map-->
+
+     <!--footer-->
+     <footer class="p-5 pb-3 bg-dark text-white text-center">
+      <div class="container">
+        <p class="lead">Copyright &copy; 2021 #CareFor</p>
+      </div>
+       
+     </footer>
+
+     <!--endoffooter-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script> <!--script-->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
