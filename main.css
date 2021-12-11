@@ -57,3 +57,10 @@ body {
 	color: #660033;
 
 }
+
+@media all and  (min-width:200px) and (max-width:500px) {
+	#ourTeam{
+		height: 60vh;
+	}
+	
+}
