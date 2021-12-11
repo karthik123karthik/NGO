@@ -71,7 +71,7 @@ body {
 }
 
 .article{
- animation: animations 3s ease-in-out 4s;
+ animation: animations 3s ease-in-out 1s;
 }
 
 .navbar{
