@@ -64,3 +64,69 @@ body {
 	}
 	
 }
+
+.card{  
+  animation: animations 4s ease-in-out 1s ;
+  opacity:1;
+}
+
+.article{
+ animation: animations 3s ease-in-out 4s;
+}
+
+.navbar{
+	animation: navbaranimation 2s ease-in-out ;
+}
+
+#home{
+     animation: showcaseanimation 2s ease-in-out forwards;
+}
+
+#newsletter{
+	animation: newsanimation 4s ease-in-out;
+}
+
+@keyframes newsanimation {
+	from{
+       opacity: 0;
+	}
+	to{
+      opacity: 1;
+	}
+	
+}
+
+@keyframes  animations {
+	from{
+       opacity:0;
+	   transform: translateX(100%);
+	}
+	to{
+		opacity:1;
+		transform:translateX(0%);
+	}
+	
+}
+
+@keyframes showcaseanimation{
+	from{
+       opacity: 0;
+	   transform: translatez(0);
+	}
+	to{
+       opacity: 1;
+	   transform: translatez(100%);
+	}
+}
+
+@keyframes navbaranimation {
+	from{
+       height:0;
+	   opacity:0;
+	   
+	}
+	to{
+       height:76px;
+	   opacity:1;
+	}
+}
