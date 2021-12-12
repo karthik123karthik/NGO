@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">      
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">  <!--font-->
+    <script src="https://kit.fontawesome.com/65cd049d9b.js" crossorigin="anonymous"></script>  <!--icon-->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="main.css" > <!--css-->
+    <!--css for blog-->
+    <link rel="stylesheet" href="blogs.css">
+    <!--swiper.js-->
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<link rel="stylesheet" href="./src/css/ourTeam.css">
+<script defer src="./script/sliding.js"></script>
+<!--end of swiper.js-->
+    <title>NGO</title>
+  </head>
+
+  <body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+      <div class="container">
+        <a href="#" class="navbar-brand"><img class="rounded-circle" src="img/logo.png" width="50px" height="50px" >  Care For</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#blog" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="#ourTeam" class="nav-link">Team</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--end_of_navbar-->
+
+    <!--Showcase-->
+    <section class="bg-dark text-light p-5 text-center" id="home">
+      <div class="container">
+        <div>
+            <br><br>
+            <h1>Lead An <span class="text-warning">Inspirational Life</span></h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <br><br>
+            <button class="btn btn-warning btn-lg"><a href="https://rzp.io/l/MOU6AkS5hn"> Donate </a> </button>
+        </div>
+      </div>
+    </section>
+    <!--endofShowcase-->
+
+    <!--scrolltoTop-->
+    <button id="btn-stt" onclick="rise()">
+      <i class="fas fa-hands-helping fa-3x ic"></i>
+    </button>
+    <!--endofscrolltoTop-->
+
+    <!--Newsletter-->
+    <section class="bg-primary text-light p-5" id="newsletter">
+      <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+          <h3 class="mb-3 mb-md-0">Sign Up For Our Newsletter</h3>
+
+          <div class="input-group news-input">
+            <input type="email" class="form-control" placeholder="Enter Email"/>
+            <button class="btn btn-dark btn-lg" type="button">
+              <i class="fa fa-paper-plane" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--endofNewsletter-->
+
+    <!--Projects-->
+    <section class="p-5" id="projects">
+      <h2 class="text-center pb-3">PROJECTS</h2>
+      <div class="continer">
+        <div class="row text-center">
+          <div class="col-sm mb-2">
+            <div class="card bg-dark text-light" style="width: 18rem;">
+              <img src="img/saveKids.jpg" class="card-img-top" alt="save a child's life">
+              <div class="card-body">
+                <h5 class="card-title">Save A <span class="text-warning">Child's Life</span></h5>
+                <p class="card-text text-left">Every day, approximately 15,000 children under five die. A staggering 80% of those...</p>
+                <a href="projects.html#save" class="btn btn-warning">read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm mb-2">
+            <div class="card bg-dark text-light" style="width: 18rem;">
+              <img src="img/vaccination.jpg" class="card-img-top" alt="vaccination">
+              <div class="card-body">
+                <h5 class="card-title"><span class="text-warning">Improve</span> Health & Fight <span class="text-warning">Infectious</span> Disease</span></h5>
+                <p class="card-text text-left">Billions of people worldwide are at risk of contracting a life...</p>
+                <a href="projects.html#infect" class="btn btn-warning">read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm mb-2">
+            <div class="card bg-dark text-light" style="width: 18rem;">
+              <img src="img/endHunger.jpg" class="card-img-top" alt="endHunger">
+              <div class="card-body">
+                <h5 class="card-title">End <span class="text-warning">Hunger</span> & <span class="text-warning">Malnutrition</span></h5>
+                <p class="card-text text-left">Chronic malnutrition threatens the health and development of a third of the world’s population...</p>
+                <a href="projects.html#hungry" class="btn btn-warning">read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm mb-2">
+            <div class="card bg-dark text-light" style="width: 18rem;">
+              <img src="img/economic.jpg" class="card-img-top" alt="ecconomic">
+              <div class="card-body">
+                <h5 class="card-title">Creat <span class="text-warning">Economic Opportunity</span></h5>
+                <p class="card-text text-left">Financial security, access to information, and job opportunities...</p>
+                <a href="projects.html#economy" class="btn btn-warning">read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--endofProjects-->
+
+   
+    <!--our team -->
+
+    <h2 class=" p-4 text-center bg-dark text-white mb-0">our team</h2>
+    <main id="ourTeam">
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide" >
+            <img src="./src/images/user_image.jpg" alt="user name">
+            <div class="info">
+              <strong>first name</strong>  <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus molestiae modi voluptatum nisi inventore enim?
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide" >
+            <img src="./src/images/user_image.jpg" alt="user name">
+            <div class="info">
+              <strong>first name</strong> <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus molestiae modi voluptatum nisi inventore enim?
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide" >
+            <img src="./src/images/user_image.jpg" alt="user name" >
+            <div class="info">
+              <strong>first name</strong> <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus molestiae modi voluptatum nisi inventore enim?
+              </p>
+            </div>
+          </div>      
+          <div class="swiper-slide" >
+            <img src="./src/images/user_image.jpg" alt="user name" >
+            <div class="info">
+              <strong>first name</strong> <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus molestiae modi voluptatum nisi inventore enim?
+              </p>
+            </div>
+          </div>      
+          <div class="swiper-slide" >
+            <img src="./src/images/user_image.jpg" alt="user name" >
+            <div class="info">
+              <strong>first name</strong> <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus molestiae modi voluptatum nisi inventore enim?
+              </p>
+            </div>
+          </div>      
+        </div>        
+          
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        </div>
+      
+    </main>
+   <!--end of ourteam-->
+
+    <!--blog section starts-->
+    <section class="blog " id="blog">
+      <div class="container">
+        <h1 class="text-center mt-2">Blogs</h1>
+         <div class="row">
+      <div class="article col-md-6 col-lg-3 m-3 " style="width:18rem">
+      <img src="./img/endHunger.jpg" alt="economic photo" class="poster">
+      <time >8/14/19</time>
+      <h2>prevent hunger</h2>
+      <p>
+        Hunger is not inevitable. It is not too big of a problem to solve. In fact, it has improved dramatically in just the last 30 years. Indeed, according to international agencies like the World Bank and United Nations, ending extreme poverty and hunger by the year 2030 are an ambitious, yet achievable goal, in need of transformational policies that address inequality and boost shared prosperity. Ending hunger by 2030 is possible....
+          </p>
+      <a href="./hungerblog.html" target="blank">read more</a>
+  </div>
+  <div class="article col-md-6 col-lg-3 m-3" style="width:18rem">
+      <img src="./img/saveKids.jpg" alt="economic photo" class="poster">
+      <time >8/14/19</time>
+      <h2>save kids</h2>
+      <p>
+        During NFHS-2 (1998-1999), 47% of children under three were found to be underweight while 46% of children under three years of age being underweight, according to.[8]This means every second child under six years of age in India is underweight, a statistic worse than that in sub-Saharan Africa...
+      </p>
+      <a href="./savekids.html" target="blank">read more</a>
+  </div>
+  <div class="article col-md-6 col-lg-3 m-3" style="width:18rem">
+      <img src="./img/poverty.jpg" alt="economic photo" class="poster">
+      <time >8/14/19</time>
+      <h2>solve poverty</h2>
+      <p>
+        Poverty refers to a situation in which a person remain underprivileged from the basic necessities of life. In addition, the person does not have an inadequate supply of food, shelter, and clothes. In India, most of the people who are suffering from poverty cannot afford to pay for a single meal a day. Also, they sleep on the roadside; wear dirty old clothes. In addition, they do not get proper healthy and nutritious food, neither medicine nor any other necessary thing....</p>
+      <a href="./poverty.html">read more</a>
+  </div>
+  <div class="article col-md-6 col-lg-3 m-3" style="width:18rem">
+      <img src="./img/vaccination.jpg" alt="economic photo" class="poster">
+      <time >8/14/19</time>
+      <h2>vaccinate your family</h2>
+      <p>
+        A vaccine (or immunization) is a way to build your body’s natural immunity to a disease before you get sick. This keeps you from getting and spreading the disease.
+
+        For most vaccines, a weakened form of the disease germ is injected into your body. This is usually done with a shot in the leg or arm. Your body detects the invading germs (antigens) and produces antibodies to fight them. Those antibodies then stay in your body for a long time. In many cases, they stay for the rest of your life. If you’re ever exposed to the disease again, your body will fight it off without you ever getting the disease...
+    
+      </p>
+      <a href="./vaccination.html" target="blank">read more</a>
+  </div>
+  <div class="article col-md-6 col-lg-3 m-3" style="width:18rem">
+      <img src="./img/illetracy.jpg" alt="economic photo" class="poster">
+      <time >8/14/19</time>
+      <h2>Cure illetracy</h2>
+      <p>
+        Illiteracy means “lack of education’ inability to read and write” which is destroying societies like a scourge. Illiteracy is no doubt a curse for a living nation. Nations can come to end if the percentage of illiteracy is higher. An illiterate person is unable to find right way for him; as a result he becomes the slave of others who use him like a puppet. Instead, a literate person can understand that what is right for him and what is wrong. A main cause of poverty is also illiteracy because poverty born from an illiterate society.</p>
+      <a href="./illetracy.html" target="blank">read more</a>
+  </div>
+  <div class="article col-md-6 col-lg-3 m-3" style="width:18rem">
+      <img src="./img/child.jpg" alt="economic photo" class="poster">
+      <time >8/14/19</time>
+      <h2>stop child marriage</h2>
+      <p>
+        Child marriage is no less than exploitation of right. In almost all places, the child must be 18 years and above to get married. Thus, marrying off the child before the age is exploiting their right.
+
+        One of the most common causes of child marriage is the tradition which has been in practice for a long time. In many places, ever since a girl is born, they consider her to be someone else’s property
+      </p>
+      <a href="./childmarriage.html" target="blank">read more</a>
+      
+      
+      
+  </div>
+   </div>
+</div>
+</div>
+</section>
+  <!--blog section ends-->
+
+     <!--about-->
+     <section class="p-5" id="about">
+      <h2 class="text-center">ABOUT</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-5">
+            <h4>Our <span class="text-success">Mission</span></h4>
+            <p>
+            We make “smart giving simple” by curating a group of nonprofits that save or improve the most lives per dollar. We aim to create a world where everyone has an opportunity to build a better life and where there’s no suffering or death due to extreme poverty.
+            </p>
+          </div>
+          <div class="col-sm-7">
+            <h4>Our <span class="text-success">History</span></h4>
+            <p>
+              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--endofabout-->
+
+
+
+    <!--Contact&Map-->
+    <section class="p-5" id="contact">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md">
+            <h2 class="text-center mb-4">Contact Info</h2>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <a class="link" href="mailto:ashishjaguar47@gmail.com"><i class="fas fa-envelope icon" ></i> <span class="fw-bold text-warning">Mail Us:</span> <span class="text-info">ashishjaguar47@gmail.com</span></a>
+              </li>
+              <li class="list-group-item">
+                <a class="link" href="tel:1234567890"><i class="fas fa-phone icon" ></i> <span class="fw-bold text-warning">Call Us:</span> <span class="text-info">123 456 7890</span></a>
+              </li>
+              <li class="list-group-item">
+                <a class="link" href="https://WWW.linkedin.com/in/ashish-p-164b801b8"><i class="fab fa-linkedin-in icon" ></i> <span class="fw-bold text-warning">Watch Us:</span> <span class="text-info">linkedin</span></a>
+              </li>
+              <li class="list-group-item">
+                <a class="link" href="#twitter"><i class="fa fa-twitter icon" ></i> <span class="fw-bold text-warning">Tweet Us:</span> <span class="text-info">twitter</span></a>
+              </li>
+              <li class="list-group-item">
+                <a class="link" href="https://maps.app.goo.gl/C8DxgyptU82idJ4T6
+" target="blank"><i class="fa fa-map-marker icon" ></i> <span class="fw-bold text-warning">Meet Us:</span> <span class="text-info">Mysuru, Karnataka, India -570009</span></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md pt-md-5 ps-md-5">
+            <form action="">
+              <div class="mb-3">
+                <label class="form-lable" for="name">Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="name">
+              </div>
+              <div class="mb-3">
+                <label class="form-lable" for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+              </div>
+              <div class="mb-3 input-group">
+                <label class="form-lable" for="message"><span class="pe-2">Message:</span></label>
+                <textarea class="form-control" placeholder="message"></textarea>
+              </div>
+              <div class="mkfloat">
+              <button type="submit" class="btn btn-dark mb-3 float-right"><i class="fa fa-paper-plane" aria-hidden="true"></i><span class="text-warning"> Send</span></button>
+            </div>
+            </form>
+          </div>
+        </div>
+      </div>
+     </section>
+     <!--endofContact&Map-->
+
+     <!--footer-->
+     <footer class="p-5 pb-3 bg-dark text-white text-center">
+      <div class="container">
+        <p class="lead">Copyright &copy; 2021 #CareFor</p>
+      </div>
+       
+     </footer>
+
+     <!--endoffooter-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> 
+    <script src="script.js"></script> <!--script-->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+
+  </body>
+</html>
