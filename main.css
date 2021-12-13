@@ -66,8 +66,8 @@ body {
 }
 
 .card{  
-  animation: animations 4s ease-in-out 1s ;
-  opacity:1;
+	opacity:0;
+  animation: animations 3s ease-in-out  forwards ;
 }
 
 .article{
