@@ -65,10 +65,6 @@ body {
 	
 }
 
-.card{  
-	opacity:0;
-  animation: animations 3s ease-in-out  forwards ;
-}
 
 .article{
  animation: animations 3s ease-in-out 1s;
@@ -129,4 +125,17 @@ body {
        height:76px;
 	   opacity:1;
 	}
+}
+
+
+@media all and (min-width:200px) and (max-width:600px){
+	.swiper-button-prev::after,.swiper-button-next::after {
+		display:none;
+		opacity:0;
+	}
+}
+
+.donate-btn,.volunteer-btn{
+	text-decoration: none;
+	padding: 10px;
 }
